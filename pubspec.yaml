@@ -1,0 +1,31 @@
+name: currency_app
+description: A simple currency converter app with Firebase integration.
+publish_to: 'none' # This is a private project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI и иконки
+  cupertino_icons: ^1.0.8
+
+  # HTTP для API-запросов
+  http: ^0.13.6
+
+  # Firebase
+  firebase_core: ^2.25.4
+  firebase_auth: ^4.17.4
+  google_sign_in: ^6.2.1
+  cloud_firestore: ^4.13.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
